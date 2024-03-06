@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+    padding: 1px 10px;
+    color: black;
+    background-color: yellow;
+    border-radius: 16px;
+    /* color: blue; */
+}
+
+body::-webkit-scrollbar{
+    display: none;    
+}
+
+body {
+    font-family: "Crimson Text", serif;
+}
+
